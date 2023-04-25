@@ -47,7 +47,7 @@ assign instr = instr_out;
 
 always @(posedge clk_i or negedge rst_i)
   begin
-    #1
+    #2
      instr_addr = pc_o;
   end
 

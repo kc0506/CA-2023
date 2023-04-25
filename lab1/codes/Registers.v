@@ -24,6 +24,7 @@ output  [31:0]      RS2data_o;
 integer i;
 
 // Register File
+reg tmp;
 reg signed [31:0]      register        [0:31];
 
 // Read Data
