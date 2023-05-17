@@ -38,4 +38,4 @@ always@(opcode)
     endcase
   end
 
-endmodule;
+endmodule
