@@ -1,0 +1,17 @@
+如果 ID 是 branch
+    if predict 
+        => IF.flush = 1，跳轉
+    else
+        => IF.flush = 0，+4
+
+如果 EX 是 branch
+    1.
+    更新 predictor
+    
+    2. 
+    if predict 為真
+        => flush = 0 
+    else
+        =>  IF.flush = 1
+            ID.flush = 1
+            PC 設為實際上要去的位置
